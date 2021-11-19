@@ -39,9 +39,9 @@ Shape.registerShape('point', 'pointer', {
   },
 });
 
-const data = [
-  { value: 5.6 },
-];
+// const data = [
+//   { value: 5.6 },
+// ];
 const cols = {
   value: {
     min: 0,

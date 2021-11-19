@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Icon, Switch, Popover, Tag, Tooltip, Popconfirm  } from 'antd'
+import { Button, Icon, Switch, Popover, Tag, Popconfirm  } from 'antd'
 import { formatDate, formatSex, msToDay } from './../../../utils'
 
 export const returnColumns = that => (
@@ -149,7 +149,7 @@ export const returnColumns = that => (
                 okText="Yes"
                 cancelText="No"
               >
-                <a href="#">逻辑删除</a>
+                <a href="http://localhost:8080">逻辑删除</a>
               </Popconfirm>
             </div>
             <div>
@@ -158,7 +158,7 @@ export const returnColumns = that => (
                 okText="Yes"
                 cancelText="No"
               >
-                <a href="#">逻辑删除</a>
+                <a href="http://localhost:8080">逻辑删除</a>
               </Popconfirm>
             </div>
           </div>

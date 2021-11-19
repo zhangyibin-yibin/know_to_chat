@@ -2,7 +2,7 @@
   "name": "chat-room",
   "version": "1.0.0",
   "description": "come on",
-  "author": "cc",
+  "author": "yibinzhang",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",

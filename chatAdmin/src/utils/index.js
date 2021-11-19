@@ -18,8 +18,8 @@ export function formatDate(time, type = 'YYYY-MM-DD') { //
   }
 }
 
-export function formatting(time){
-  var fromatTime = new Date(time).getTime();
+export function formatting(time1){
+  var fromatTime = new Date(time1).getTime();
   var time = new Date(fromatTime);
   var y = time.getFullYear();
   var m = time.getMonth()+1;

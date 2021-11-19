@@ -78,10 +78,10 @@ export default {
       this.$socket.emit("leave");
       this.$store.dispatch("user/LOGOUT");
       removeCookie();
-    },
-    setShowTheme(flag) {
-      this.$emit("setShowTheme", flag);
     }
+    // setShowTheme(flag) {
+    //   this.$emit("setShowTheme", flag);
+    // }
   }
 };
 </script>

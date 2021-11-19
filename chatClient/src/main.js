@@ -42,7 +42,7 @@ VueAMap.initAMapApiLoader({
 
 // socket连接
 Vue.use(new VueSocketIO({
-  debug: true, //可以在控制台看到socket连接和时间监听的一些信息
+  // debug: true, //可以在控制台看到socket连接和时间监听的一些信息
   connection: process.env.SOCKET_URL,
   // vuex: {
   //   store,

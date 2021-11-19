@@ -14,9 +14,9 @@
         <span class="logo-title">知聊</span>
       </div>
       <a target="_blank" class="admin_login" href="http://localhost:3000/">管理员登录接口</a>
-      <div class="todo">
+      <!-- <div class="todo">
         <todo />
-      </div>
+      </div> -->
     </div>
       <div class="login_bg">
         <img src="static/image/login_bg.png" alt="">
@@ -98,6 +98,7 @@ import canvasImg from "./../../static/image/canvas2.jpg";
 import { accountReg, passwordReg } from "@/utils/index";
 import avatarChoose from "@/components/avatarChoose";
 import copyRight from "@/components/copyright";
+import Todo from "@/components/todo";
 // import { Swiper, SwiperSlide } from "swiper/vue";
 const faceRandom = Math.ceil(Math.random() * 10);
 export default {
@@ -258,7 +259,8 @@ export default {
   },
   components: {
     avatarChoose,
-    copyRight
+    copyRight,
+    Todo
   },
   async mounted() {
     this.getCVCode();

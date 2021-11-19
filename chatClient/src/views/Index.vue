@@ -138,10 +138,10 @@ export default {
     },
     setLoading(flag) {
       this.loading = flag;
-    },
-    setShowTheme(flag) {
-      this.showTheme = flag;
     }
+    // setShowTheme(flag) {
+    //   this.showTheme = flag;
+    // }
   },
   components: {
     ConversationList,
