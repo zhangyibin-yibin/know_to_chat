@@ -1,0 +1,45 @@
+.login-page {
+  $color: #fff;
+  position: relative;
+  height: 100%;
+  background-image: url('/images/abstract.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  * {
+    // background-color: transparent !important;
+    // color: $color !important;
+  }
+  .wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 20px 30px;
+    // background: linear-gradient(230deg,rgba(53,57,74,0),#000);
+    background-color: #f3f2ef;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    .header {
+      text-align: center;
+      .header_text{
+        vertical-align: 10px;
+        display: inline-block;
+        font-size: 24px;
+        color: #21aa93;
+        font-weight: 600;
+      }
+    }
+    .form-item {
+      margin: 20px 0;
+    }
+    .form-item.cvcode {
+      display: flex;
+      input {
+        width: 70%;
+      }
+      div {
+        width: 30%;
+      }
+    }
+  }
+}

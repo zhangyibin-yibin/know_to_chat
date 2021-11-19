@@ -1,0 +1,25 @@
+.view_group{
+  .group_list{
+    font-size: 14px;
+    margin: 20px 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    .group_avatar{
+      border-radius: 50%;
+    }
+    span{
+      margin: 0 10px;
+    }
+    .group_name,.group_desc{
+      display: inline-block;
+      width: 100px;
+      overflow: hidden;
+      text-overflow:ellipsis; 
+      white-space:nowrap; 
+      vertical-align: -5px;
+    }
+    .group_desc{
+      width: 200px;
+    }
+  }
+}
