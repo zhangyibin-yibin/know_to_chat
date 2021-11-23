@@ -180,7 +180,7 @@ export default {
 <style lang="scss">
 .schedule-page {
   position: relative;
-  height: 98%;
+  height: 120%;
   width: 70%;
   min-width: 1000px;
   padding: 20px;

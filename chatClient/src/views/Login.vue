@@ -341,7 +341,7 @@ export default {
     .revise_color {
       color: #409eff;
       position: absolute;
-      bottom: 50px;
+      bottom: -7px;
       right: 20%;
       // transform: translateX(-50%);
       line-height: 30px;

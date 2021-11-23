@@ -317,7 +317,7 @@ export default {
     transform: translateX(-50%);
     content: "";
     width: 2px;
-    height: 700px;
+    height: 80vh;
     background-color: #ccc;
   }
   .body {
